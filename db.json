@@ -1,0 +1,8 @@
+{
+    "std":[
+        {"name":"chirag","age":20,"marks":33},
+        {"name":"jatin","age":20,"marks":55},
+        {"name":"jignesh","age":20,"marks":66}
+    ]
+    
+}
