@@ -51,7 +51,7 @@ const ToDo = () => {
       </button>
       {todo.map((result, i) => {
         return (
-          <>
+          <div key={i}>
             <h1>{result}</h1>
             <button
               onClick={() => {
@@ -67,7 +67,7 @@ const ToDo = () => {
             >
               Update
             </button>
-          </>
+          </div>
         )
       })}
     </>

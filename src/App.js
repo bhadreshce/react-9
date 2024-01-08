@@ -14,13 +14,20 @@ import Product from './Product'
 import Ref from './Ref'
 import Std from './Std'
 import TodoApp from './TodoApp'
+import Child from './Child'
+import Memo from './Memo'
+import Props from './Props'
+const webSItename = 'My app'
 function App() {
   return (
     <div className="App">
       {/* <Ref /> */}
-      {/* <ToDo /> */}
+      <ToDo />
       {/* <Std /> */}
-      <TodoApp />
+      {/* <TodoApp name={webSItename} /> */}
+      {/* <Child name={webSItename} /> */}
+      {/* <Memo /> */}
+      {/* <Props name={true} /> */}
     </div>
   )
 }
